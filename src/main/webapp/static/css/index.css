@@ -356,5 +356,25 @@ template {
   font-size: 60px;
   font-weight: 700;
 }
+.header .nav .header-right {
+  display: flex;
+  align-items: center;
+}
+.header .nav .header-right a {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.header .nav .header-right a span {
+  margin: 0 5px;
+}
+.header .nav .header-right a img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+.header .nav .header-right .cart {
+  margin-right: 20px;
+}
 
 /*# sourceMappingURL=index.css.map */

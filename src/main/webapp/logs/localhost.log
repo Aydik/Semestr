@@ -1,591 +1,154 @@
-2024-12-19 00:00:24,385 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 00:00:25,112 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 00:00:25,206 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 00:00:25,301 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.054s)
-2024-12-19 00:00:25,324 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 00:00:25,325 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 00:00:25,329 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 00:00:25,338 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 00:05:32,033 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 00:05:32,902 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 00:05:33,021 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 00:05:33,119 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.051s)
-2024-12-19 00:05:33,142 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 00:05:33,142 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 00:05:33,146 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 00:05:33,156 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 00:12:28,751 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 00:12:29,511 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 00:12:29,597 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 00:12:29,696 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.056s)
-2024-12-19 00:12:29,717 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 00:12:29,718 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 00:12:29,722 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 00:12:29,731 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 00:19:20,730 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 00:19:21,482 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 00:19:21,583 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 00:19:21,684 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.055s)
-2024-12-19 00:19:21,704 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 00:19:21,705 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 00:19:21,710 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 00:19:21,721 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 00:20:36,289 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 00:20:37,007 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 00:20:37,100 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 00:20:37,192 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.051s)
-2024-12-19 00:20:37,213 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 00:20:37,214 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 00:20:37,218 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 00:20:37,228 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 00:23:48,034 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 00:23:48,872 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 00:23:48,962 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 00:23:49,057 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.053s)
-2024-12-19 00:23:49,078 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 00:23:49,078 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 00:23:49,084 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 00:23:49,094 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 00:24:15,481 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 00:24:16,200 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 00:24:16,293 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 00:24:16,401 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.058s)
-2024-12-19 00:24:16,423 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 00:24:16,423 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 00:24:16,427 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 00:24:16,441 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 00:26:16,547 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 00:26:17,243 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 00:26:17,340 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 00:26:17,441 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.056s)
-2024-12-19 00:26:17,465 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 00:26:17,466 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 00:26:17,471 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 00:26:17,484 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 00:26:56,102 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 00:26:56,903 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 00:26:56,992 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 00:26:57,096 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.061s)
-2024-12-19 00:26:57,123 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 00:26:57,124 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 00:26:57,129 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 00:26:57,139 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 00:27:20,125 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 00:27:20,852 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 00:27:20,943 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 00:27:21,045 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.052s)
-2024-12-19 00:27:21,066 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 00:27:21,066 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 00:27:21,071 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 00:27:21,081 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 00:34:47,531 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 00:34:48,305 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 00:34:48,396 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 00:34:48,499 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.053s)
-2024-12-19 00:34:48,521 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 00:34:48,521 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 00:34:48,526 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 00:34:48,536 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 00:41:22,210 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 00:41:23,050 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 00:41:23,143 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 00:41:23,255 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.057s)
-2024-12-19 00:41:23,277 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 00:41:23,278 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 00:41:23,283 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 00:41:23,294 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 00:49:12,176 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 00:49:12,880 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 00:49:12,979 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 00:49:13,099 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.061s)
-2024-12-19 00:49:13,118 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 00:49:13,118 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 00:49:13,123 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 00:49:13,136 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 00:54:01,124 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 00:54:01,876 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 00:54:01,969 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 00:54:02,058 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.051s)
-2024-12-19 00:54:02,077 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 00:54:02,078 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 00:54:02,081 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 00:54:02,091 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 00:56:55,305 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 00:56:56,099 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 00:56:56,189 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 00:56:56,294 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.059s)
-2024-12-19 00:56:56,320 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 00:56:56,321 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 00:56:56,326 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 00:56:56,338 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 01:01:52,360 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 01:01:53,074 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 01:01:53,166 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 01:01:53,263 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.053s)
-2024-12-19 01:01:53,284 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 01:01:53,285 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 01:01:53,288 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 01:01:53,298 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 01:03:12,229 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 01:03:12,889 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 01:03:12,970 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 01:03:13,057 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.047s)
-2024-12-19 01:03:13,080 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 01:03:13,081 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 01:03:13,084 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 01:03:13,094 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 01:04:42,145 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 01:04:42,873 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 01:04:42,958 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 01:04:43,052 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.052s)
-2024-12-19 01:04:43,073 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 01:04:43,074 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 01:04:43,078 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 01:04:43,087 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 01:06:22,086 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 01:06:22,957 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 01:06:23,051 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 01:06:23,146 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.056s)
-2024-12-19 01:06:23,169 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 01:06:23,169 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 01:06:23,173 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 01:06:23,183 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 01:09:05,135 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 01:09:05,840 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 01:09:05,928 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/lab07 (PostgreSQL 17.0)
-2024-12-19 01:09:06,023 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 3 migrations (execution time 00:00.053s)
-2024-12-19 01:09:06,045 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.1
-2024-12-19 01:09:06,045 [RMI TCP Connection(2)-127.0.0.1] WARN  org.flywaydb.core.internal.command.DbMigrate- Schema "public" has a version (1.1) that is newer than the latest available migration (1) !
-2024-12-19 01:09:06,049 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 01:09:06,060 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 01:44:42,025 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 01:47:31,079 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 01:47:31,773 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 01:47:31,877 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 01:47:31,948 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory- Schema history table "public"."flyway_schema_history" does not exist yet
-2024-12-19 01:47:31,955 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.035s)
-2024-12-19 01:47:31,975 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory- Creating Schema History table "public"."flyway_schema_history" ...
-2024-12-19 01:47:32,048 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": << Empty Schema >>
-2024-12-19 01:47:32,057 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Migrating schema "public" to version "1.0 - initdb"
-2024-12-19 01:47:32,094 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Successfully applied 1 migration to schema "public", now at version v1.0 (execution time 00:00.015s)
-2024-12-19 01:47:32,105 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 01:48:19,331 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 01:48:20,021 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 01:48:20,120 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 01:48:20,212 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.052s)
-2024-12-19 01:48:20,231 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 01:48:20,235 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 01:48:20,248 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 02:14:14,713 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 02:14:15,549 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 02:14:15,629 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 02:14:15,726 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.053s)
-2024-12-19 02:14:15,745 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 02:14:15,750 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 02:14:15,762 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 02:15:12,503 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 02:15:13,203 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 02:15:13,295 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 02:15:13,395 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.054s)
-2024-12-19 02:15:13,416 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 02:15:13,419 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 02:15:13,429 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 02:39:15,557 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 02:39:16,362 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 02:39:16,453 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 02:39:16,555 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.057s)
-2024-12-19 02:39:16,575 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 02:39:16,579 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 02:39:16,590 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 02:41:07,940 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 02:41:08,669 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 02:41:08,757 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 02:41:08,852 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.051s)
-2024-12-19 02:41:08,873 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 02:41:08,877 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 02:41:08,890 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 02:41:39,946 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 02:41:40,778 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 02:41:40,879 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 02:41:40,974 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.054s)
-2024-12-19 02:41:40,994 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 02:41:40,997 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 02:41:41,009 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 12:45:33,834 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 12:45:34,633 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 12:45:34,770 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 12:45:34,910 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.074s)
-2024-12-19 12:45:34,934 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 12:45:34,941 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 12:45:34,952 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 12:47:55,798 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 12:47:56,843 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 12:47:56,950 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 12:47:57,075 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.074s)
-2024-12-19 12:47:57,100 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 12:47:57,105 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 12:47:57,118 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 12:48:32,245 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 12:48:33,090 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 12:48:33,177 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 12:48:33,274 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.054s)
-2024-12-19 12:48:33,295 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 12:48:33,298 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 12:48:33,309 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 12:49:31,029 [RMI TCP Connection(4)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 12:49:31,764 [RMI TCP Connection(4)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 12:49:31,854 [RMI TCP Connection(4)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 12:49:31,950 [RMI TCP Connection(4)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.054s)
-2024-12-19 12:49:31,971 [RMI TCP Connection(4)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 12:49:31,975 [RMI TCP Connection(4)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 12:49:31,986 [RMI TCP Connection(4)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 12:49:57,651 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 12:49:58,497 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 12:49:58,588 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 12:49:58,685 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.053s)
-2024-12-19 12:49:58,707 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 12:49:58,710 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 12:49:58,720 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 12:57:40,926 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 12:57:41,756 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 12:57:41,849 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 12:57:41,946 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.053s)
-2024-12-19 12:57:41,967 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 12:57:41,970 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 12:57:41,984 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 13:00:28,783 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 13:00:29,478 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 13:00:29,563 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 13:00:29,670 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.064s)
-2024-12-19 13:00:29,693 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 13:00:29,699 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 13:00:29,709 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 13:04:53,480 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 13:04:54,292 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 13:04:54,388 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 13:04:54,481 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.051s)
-2024-12-19 13:04:54,500 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 13:04:54,504 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 13:04:54,514 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 13:09:29,527 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 13:09:30,352 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 13:09:30,447 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 13:09:30,543 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.055s)
-2024-12-19 13:09:30,566 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 13:09:30,570 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 13:09:30,580 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 13:11:07,548 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 13:11:08,235 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 13:11:08,330 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 13:11:08,428 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.056s)
-2024-12-19 13:11:08,450 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 13:11:08,456 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 13:11:08,472 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 13:24:10,959 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 13:24:11,611 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 13:24:11,710 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 13:24:11,816 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.062s)
-2024-12-19 13:24:11,839 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 13:24:11,843 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 13:24:11,856 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 13:25:27,340 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 13:25:28,031 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 13:25:28,124 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 13:25:28,234 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.061s)
-2024-12-19 13:25:28,261 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 13:25:28,265 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 13:25:28,277 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 13:27:28,533 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 13:27:29,235 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 13:27:29,325 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 13:27:29,429 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.060s)
-2024-12-19 13:27:29,457 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 13:27:29,461 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 13:27:29,473 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 13:35:20,911 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 13:35:21,612 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 13:35:21,688 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 13:35:21,780 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.055s)
-2024-12-19 13:35:21,799 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 13:35:21,804 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 13:35:21,814 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 13:36:20,681 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 13:36:21,355 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 13:36:21,434 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 13:36:21,526 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.051s)
-2024-12-19 13:36:21,547 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 13:36:21,550 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 13:36:21,560 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 13:37:16,326 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 13:37:17,098 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 13:37:17,199 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 13:37:17,290 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.049s)
-2024-12-19 13:37:17,311 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 13:37:17,315 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 13:37:17,326 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 13:37:29,571 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 13:37:30,272 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 13:37:30,363 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 13:37:30,452 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.049s)
-2024-12-19 13:37:30,472 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 13:37:30,475 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 13:37:30,484 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 13:38:17,539 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 13:38:18,329 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 13:38:18,416 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 13:38:18,526 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.063s)
-2024-12-19 13:38:18,550 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 13:38:18,554 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 13:38:18,567 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 13:41:54,572 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 13:41:55,248 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 13:41:55,334 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 13:41:55,436 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.058s)
-2024-12-19 13:41:55,459 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 13:41:55,465 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 13:41:55,476 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 13:47:49,685 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 13:47:50,423 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 13:47:50,521 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 13:47:50,632 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.058s)
-2024-12-19 13:47:50,652 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 13:47:50,656 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 13:47:50,667 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 13:53:41,831 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 13:53:42,553 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 13:53:42,641 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 13:53:42,737 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.052s)
-2024-12-19 13:53:42,759 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 13:53:42,763 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 13:53:42,773 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 14:32:42,244 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 14:32:43,047 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 14:32:43,122 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 14:32:43,207 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.049s)
-2024-12-19 14:32:43,228 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 14:32:43,231 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 14:32:43,242 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 14:36:37,662 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 14:36:38,497 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 14:36:38,588 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 14:36:38,686 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.054s)
-2024-12-19 14:36:38,707 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 14:36:38,710 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 14:36:38,721 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 14:37:38,888 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 14:37:39,604 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 14:37:39,696 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 14:37:39,793 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.054s)
-2024-12-19 14:37:39,816 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 14:37:39,819 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 14:37:39,829 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 14:41:32,047 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 14:41:32,892 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 14:41:32,983 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 14:41:33,088 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.058s)
-2024-12-19 14:41:33,113 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 14:41:33,117 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 14:41:33,128 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 14:42:10,984 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 14:42:11,725 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 14:42:11,817 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 14:42:11,932 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.070s)
-2024-12-19 14:42:11,957 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 14:42:11,961 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 14:42:11,973 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 14:43:18,723 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 14:43:19,430 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 14:43:19,527 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 14:43:19,622 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.051s)
-2024-12-19 14:43:19,643 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 14:43:19,648 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 14:43:19,658 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 19:23:29,334 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 19:23:30,100 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 19:23:30,190 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 19:23:30,279 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.053s)
-2024-12-19 19:23:30,302 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 19:23:30,305 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 19:23:30,316 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 20:15:30,234 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 20:15:31,062 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 20:15:31,180 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 20:15:31,301 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.060s)
-2024-12-19 20:15:31,324 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 20:15:31,329 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 20:15:31,343 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 21:14:24,838 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 21:14:25,671 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 21:14:25,763 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 21:14:25,871 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.058s)
-2024-12-19 21:14:25,889 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 21:14:25,894 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 21:14:25,908 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 21:20:10,545 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 21:20:11,285 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 21:20:11,387 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 21:20:11,494 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.060s)
-2024-12-19 21:20:11,514 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 21:20:11,517 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 21:20:11,527 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 21:21:00,358 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 21:21:01,063 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 21:21:01,146 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 21:21:01,251 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.062s)
-2024-12-19 21:21:01,274 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 21:21:01,278 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 21:21:01,289 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 21:39:14,420 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 21:39:15,154 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 21:39:15,242 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 21:39:15,344 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.053s)
-2024-12-19 21:39:15,362 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 21:39:15,367 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 21:39:15,377 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 21:55:17,864 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 21:55:18,605 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 21:55:18,700 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 21:55:18,799 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.054s)
-2024-12-19 21:55:18,821 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 21:55:18,826 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 21:55:18,837 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 21:58:17,098 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 21:58:17,811 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 21:58:17,904 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 21:58:18,003 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.054s)
-2024-12-19 21:58:18,024 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 21:58:18,028 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 21:58:18,038 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 22:00:04,908 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 22:00:05,609 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 22:00:05,716 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 22:00:05,810 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.051s)
-2024-12-19 22:00:05,833 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 22:00:05,836 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 22:00:05,847 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 22:13:52,557 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 22:13:53,234 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 22:13:53,309 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 22:13:53,396 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.050s)
-2024-12-19 22:13:53,416 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 22:13:53,419 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 22:13:53,430 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 22:21:19,220 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 22:21:19,943 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 22:21:20,035 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 22:21:20,126 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.050s)
-2024-12-19 22:21:20,150 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 22:21:20,154 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 22:21:20,166 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 22:22:24,543 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 22:22:25,287 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 22:22:25,369 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 22:22:25,455 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.049s)
-2024-12-19 22:22:25,476 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 22:22:25,480 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 22:22:25,494 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 22:23:08,239 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 22:23:08,964 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 22:23:09,057 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 22:23:09,153 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.052s)
-2024-12-19 22:23:09,174 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 22:23:09,178 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 22:23:09,188 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 22:23:33,967 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 22:23:34,768 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 22:23:34,858 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 22:23:34,951 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.052s)
-2024-12-19 22:23:34,971 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 22:23:34,974 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 22:23:34,984 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 22:23:51,662 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 22:23:52,385 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 22:23:52,479 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 22:23:52,575 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.054s)
-2024-12-19 22:23:52,596 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 22:23:52,601 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 22:23:52,611 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 22:24:48,949 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 22:24:49,627 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 22:24:49,717 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 22:24:49,811 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.052s)
-2024-12-19 22:24:49,831 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 22:24:49,835 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 22:24:49,847 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 22:27:02,318 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 22:27:03,017 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 22:27:03,107 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 22:27:03,216 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.061s)
-2024-12-19 22:27:03,239 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 22:27:03,244 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 22:27:03,255 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 22:27:25,671 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 22:27:26,329 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 22:27:26,423 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 22:27:26,523 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.055s)
-2024-12-19 22:27:26,544 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 22:27:26,547 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 22:27:26,557 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 22:27:50,497 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 22:27:51,186 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 22:27:51,273 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 22:27:51,378 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.056s)
-2024-12-19 22:27:51,401 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 22:27:51,404 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 22:27:51,417 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 22:31:34,161 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 22:31:35,012 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 22:31:35,107 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 22:31:35,205 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.055s)
-2024-12-19 22:31:35,226 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 22:31:35,229 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 22:31:35,239 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 22:31:53,751 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 22:31:54,560 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 22:31:54,648 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 22:31:54,744 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.056s)
-2024-12-19 22:31:54,764 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 22:31:54,769 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 22:31:54,784 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 22:32:26,713 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 22:32:27,519 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 22:32:27,610 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 22:32:27,713 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.060s)
-2024-12-19 22:32:27,738 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 22:32:27,742 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 22:32:27,755 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 22:35:54,183 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 22:35:54,957 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 22:35:55,048 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 22:35:55,142 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.050s)
-2024-12-19 22:35:55,165 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 22:35:55,169 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 22:35:55,179 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 23:04:41,346 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 23:04:42,081 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 23:04:42,172 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 23:04:42,288 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.063s)
-2024-12-19 23:04:42,309 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 23:04:42,314 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 23:04:42,325 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 23:05:58,134 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 23:05:58,907 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 23:05:59,001 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 23:05:59,097 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.055s)
-2024-12-19 23:05:59,122 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 23:05:59,126 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 23:05:59,137 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 23:11:25,534 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 23:11:26,247 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 23:11:26,336 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 23:11:26,429 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.052s)
-2024-12-19 23:11:26,448 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 23:11:26,452 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 23:11:26,462 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
-2024-12-19 23:23:00,275 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
-2024-12-19 23:23:00,995 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
-2024-12-19 23:23:01,079 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
-2024-12-19 23:23:01,171 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.050s)
-2024-12-19 23:23:01,192 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
-2024-12-19 23:23:01,196 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
-2024-12-19 23:23:01,205 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 00:22:52,850 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 00:22:53,701 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 00:22:54,012 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 00:22:54,118 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.053s)
+2024-12-20 00:22:54,139 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 00:22:54,144 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 00:22:54,154 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 00:59:15,968 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 00:59:16,691 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 00:59:16,783 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 00:59:16,893 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.056s)
+2024-12-20 00:59:16,912 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 00:59:16,916 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 00:59:16,927 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:00:07,777 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:00:08,557 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:00:08,651 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:00:08,749 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.057s)
+2024-12-20 01:00:08,773 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:00:08,778 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:00:08,789 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:02:19,065 [RMI TCP Connection(3)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:02:19,885 [RMI TCP Connection(3)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:02:19,985 [RMI TCP Connection(3)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:02:20,080 [RMI TCP Connection(3)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.053s)
+2024-12-20 01:02:20,100 [RMI TCP Connection(3)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:02:20,104 [RMI TCP Connection(3)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:02:20,117 [RMI TCP Connection(3)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:03:04,201 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:03:04,886 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:03:04,979 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:03:05,082 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.062s)
+2024-12-20 01:03:05,106 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:03:05,112 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:03:05,124 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:05:17,861 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:05:18,566 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:05:18,644 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:05:18,748 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.055s)
+2024-12-20 01:05:18,770 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:05:18,775 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:05:18,785 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:05:38,163 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:05:38,892 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:05:38,986 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:05:39,085 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.053s)
+2024-12-20 01:05:39,107 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:05:39,110 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:05:39,121 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:07:11,097 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:07:11,800 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:07:11,893 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:07:11,991 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.055s)
+2024-12-20 01:07:12,012 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:07:12,015 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:07:12,027 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:07:34,372 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:07:35,233 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:07:35,360 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:07:35,479 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.064s)
+2024-12-20 01:07:35,502 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:07:35,506 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:07:35,518 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:15:53,270 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:15:53,966 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:15:54,056 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:15:54,147 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.054s)
+2024-12-20 01:15:54,169 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:15:54,172 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:15:54,184 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:23:14,731 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:23:15,420 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:23:15,499 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:23:15,607 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.062s)
+2024-12-20 01:23:15,634 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:23:15,638 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:23:15,651 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:24:48,900 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:24:49,644 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:24:49,738 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:24:49,833 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.054s)
+2024-12-20 01:24:49,854 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:24:49,858 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:24:49,869 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:30:10,722 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:30:11,505 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:30:11,599 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:30:11,712 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.065s)
+2024-12-20 01:30:11,734 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:30:11,739 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:30:11,752 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:35:57,274 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:35:58,080 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:35:58,194 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:35:58,307 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.061s)
+2024-12-20 01:35:58,335 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:35:58,339 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:35:58,351 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:45:04,944 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:45:05,663 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:45:05,755 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:45:05,859 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.055s)
+2024-12-20 01:45:05,878 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:45:05,884 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:45:05,895 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:46:43,666 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:46:44,383 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:46:44,479 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:46:44,572 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.052s)
+2024-12-20 01:46:44,593 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:46:44,597 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:46:44,608 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:48:18,804 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:48:19,511 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:48:19,605 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:48:19,705 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.056s)
+2024-12-20 01:48:19,731 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:48:19,735 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:48:19,746 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:49:34,238 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:49:35,068 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:49:35,159 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:49:35,255 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.055s)
+2024-12-20 01:49:35,277 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:49:35,282 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:49:35,294 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:50:59,881 [RMI TCP Connection(4)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:51:00,565 [RMI TCP Connection(4)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:51:00,651 [RMI TCP Connection(4)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:51:00,749 [RMI TCP Connection(4)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.054s)
+2024-12-20 01:51:00,770 [RMI TCP Connection(4)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:51:00,774 [RMI TCP Connection(4)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:51:00,785 [RMI TCP Connection(4)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:52:05,890 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:52:06,711 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:52:06,830 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:52:06,951 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.067s)
+2024-12-20 01:52:06,978 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:52:06,983 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:52:06,998 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 01:59:19,360 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 01:59:20,037 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 01:59:20,130 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 01:59:20,230 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.055s)
+2024-12-20 01:59:20,251 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 01:59:20,256 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 01:59:20,270 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
+2024-12-20 02:01:56,063 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.listener.AppContextListener- contextInitialized
+2024-12-20 02:01:56,812 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- start migration
+2024-12-20 02:01:56,901 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.FlywayExecutor- Database: jdbc:postgresql://localhost:5432/pizza (PostgreSQL 17.0)
+2024-12-20 02:01:56,997 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbValidate- Successfully validated 1 migration (execution time 00:00.057s)
+2024-12-20 02:01:57,022 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Current version of schema "public": 1.0
+2024-12-20 02:01:57,027 [RMI TCP Connection(2)-127.0.0.1] INFO  org.flywaydb.core.internal.command.DbMigrate- Schema "public" is up to date. No migration necessary.
+2024-12-20 02:01:57,039 [RMI TCP Connection(2)-127.0.0.1] INFO  ru.itis.inf301.semestr.repository.DBConnection- migration done
