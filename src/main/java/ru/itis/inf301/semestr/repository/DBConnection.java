@@ -36,7 +36,7 @@ public class DBConnection {
             Class.forName("org.postgresql.Driver");
 
             HikariConfig config = new HikariConfig();
-            config.setJdbcUrl("jdbc:postgresql://localhost:5432/pizza");
+            config.setJdbcUrl("jdbc:postgresql://localhost:5432/pizza_fast");
             config.setUsername("postgres");
             config.setPassword("passwd");
             config.setConnectionTimeout(50000);

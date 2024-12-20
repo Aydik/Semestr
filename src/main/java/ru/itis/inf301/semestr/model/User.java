@@ -1,8 +1,10 @@
 package ru.itis.inf301.semestr.model;
+
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter@Setter
+@Getter
+@Setter
 public class User {
     private Long id;
     private String phone;

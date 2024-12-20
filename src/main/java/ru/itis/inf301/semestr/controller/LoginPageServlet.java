@@ -6,6 +6,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
+
 import java.io.IOException;
 
 import ru.itis.inf301.semestr.service.UserService;
@@ -14,7 +15,7 @@ import ru.itis.inf301.semestr.bcrypt.PasswordSecurity;
 
 @WebServlet("/login")
 public class LoginPageServlet extends HttpServlet {
-    private final UserService service = new UserService();
+    private final UserService userService = new UserService();
 
     public void doPost(HttpServletRequest request, HttpServletResponse response) {
         try {
@@ -22,8 +23,8 @@ public class LoginPageServlet extends HttpServlet {
             String password = request.getParameter("password");
 
             boolean access = false;
-            User user = service.findByName(username);
-            if (user != null){
+            User user = userService.findByName(username);
+            if (user != null) {
                 access = PasswordSecurity.checkPassword(password, user.getPassword());
             }
 

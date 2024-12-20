@@ -15,7 +15,7 @@ import ru.itis.inf301.semestr.bcrypt.PasswordSecurity;
 
 @WebServlet("/register")
 public class RegisterPageServlet extends HttpServlet {
-    private final UserService service = new UserService();
+    private final UserService userService = new UserService();
 
     public void doPost(HttpServletRequest request, HttpServletResponse response) {
         try {
@@ -50,7 +50,7 @@ public class RegisterPageServlet extends HttpServlet {
 
     public String validateData(String username, String phone, String password, String password_copy) {
         if (username.length() < 4) return "Минимальная длина логина - 4 символа";
-        if(service.findByName(username) != null) return "Имя пользователя занято";
+        if(userService.findByName(username) != null) return "Имя пользователя занято";
         String phone_new = phone.replaceAll("[^0-9]", "");
         if (phone_new.length() != 11 || phone_new.charAt(0) != '7' || phone_new.charAt(1) != '9')
             return "Номер телефона указан неверно";
@@ -62,7 +62,7 @@ public class RegisterPageServlet extends HttpServlet {
         user.setUsername(username);
         user.setPhone(phone_new);
         user.setPassword(PasswordSecurity.hashPassword(password));
-        service.addUser(user);
+        userService.addUser(user);
 
         return null;
     }
