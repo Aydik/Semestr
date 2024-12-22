@@ -1,7 +1,7 @@
 
-sass -w src/main/webapp/static/css/scss/index.scss src/main/webapp/static/css/index.css
+sass -w src/main/webapp/static/styles/scss/index.scss src/main/webapp/static/styles/index.css
 
-sass -w src/main/webapp/static/css/scss/login.scss src/main/webapp/static/css/login.css
+sass -w src/main/webapp/static/styles/scss/login.scss src/main/webapp/static/styles/login.css
 
 # Семестровая 1
 

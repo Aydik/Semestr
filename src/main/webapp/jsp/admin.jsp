@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>PIZZA FAST</title>
-    <link rel="stylesheet" href="../static/css/index.css">
+<%--    <link rel="stylesheet" href="../static/styles/index.css">--%>
 </head>
 <body>
 <%@include file="header.jsp"%>

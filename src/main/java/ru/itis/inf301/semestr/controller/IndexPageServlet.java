@@ -18,10 +18,9 @@ public class IndexPageServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) {
         try {
-            List<Pizza> pizzas = pizzaService.findAll();
-            for (Pizza pizza : pizzas) {
-                System.out.println(pizza.getName() + " " + pizza.getPrice() + " " + pizza.getPhoto());
-            }
+            List<Pizza> products = pizzaService.findAll();
+
+            request.setAttribute("products", products);
             request.getRequestDispatcher("jsp/index.jsp").forward(request, response);
 
         } catch (IOException | ServletException e) {

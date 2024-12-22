@@ -326,7 +326,7 @@ template {
   position: absolute;
   min-height: calc(100vh - 100px);
   width: 100%;
-  background: url("/static/images/background.jpg") repeat;
+  background: url("/static/images/pictures/background.jpg") repeat;
 }
 
 .header {

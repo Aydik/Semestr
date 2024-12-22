@@ -1,4 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" session="false" %>
+<link rel="stylesheet" href="../static/styles/header.css">
 <header class="header">
     <nav class="nav">
         <a class="home" href="/">PIZZA FAST</a>
