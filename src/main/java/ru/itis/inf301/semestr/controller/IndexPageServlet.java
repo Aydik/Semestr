@@ -9,6 +9,11 @@ import jakarta.servlet.http.HttpSession;
 import ru.itis.inf301.semestr.model.Pizza;
 import ru.itis.inf301.semestr.service.PizzaService;
 
+
+import ru.itis.inf301.semestr.model.Cart;
+import ru.itis.inf301.semestr.service.CartService;
+
+
 import java.io.IOException;
 import java.util.List;
 
@@ -19,8 +24,8 @@ public class IndexPageServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) {
         try {
             List<Pizza> products = pizzaService.findAll();
-
             request.setAttribute("products", products);
+
             request.getRequestDispatcher("jsp/index.jsp").forward(request, response);
 
         } catch (IOException | ServletException e) {

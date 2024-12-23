@@ -28,6 +28,7 @@ public class RegisterPageServlet extends HttpServlet {
 
             if (error == null) {
                 HttpSession session = request.getSession();
+                session.setAttribute("id", userService.findByName(username));
                 session.setAttribute("user", username);
                 response.sendRedirect("/");
             } else {
@@ -56,7 +57,6 @@ public class RegisterPageServlet extends HttpServlet {
             return "Номер телефона указан неверно";
         if (password.length() < 8) return "Минимальная длина пароля - 8 символов";
         if (!password.equals(password_copy)) return "Пароли не совпадают";
-        System.out.println(username + " " + phone_new + " " + password + " " + password_copy);
 
         User user = new User();
         user.setUsername(username);

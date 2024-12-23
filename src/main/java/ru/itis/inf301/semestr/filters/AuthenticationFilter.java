@@ -17,20 +17,14 @@ public class AuthenticationFilter implements Filter {
         HttpServletRequest req = (HttpServletRequest) request;
         HttpSession session = req.getSession(false);
 
-        if (req.getServletPath().startsWith("/cart")) {
-            if (session != null) {
-                filterChain.doFilter(request, response);
-            } else {
-                res.sendRedirect("/login");
-            }
-        } else if(req.getServletPath().startsWith("/login") ||
-                req.getServletPath().startsWith("/register")){
+        if (req.getServletPath().startsWith("/login") ||
+                req.getServletPath().startsWith("/register")) {
             if (session == null) {
                 filterChain.doFilter(request, response);
             } else {
                 res.sendRedirect("/");
             }
-        } else{
+        } else {
             filterChain.doFilter(request, response);
         }
 

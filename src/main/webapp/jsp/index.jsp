@@ -48,10 +48,12 @@
             List<Pizza> products = (List<Pizza>) request.getAttribute("products");
             for (var pizza: products) {
         %>
-        <%@include file="product_card.jsp"%>
+            <%@include file="product_card.jsp"%>
         <%}%>
     </div>
 </main>
 <%@include file="footer.jsp" %>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="../static/js/add_to_cart.js"></script>
 </body>
 </html>

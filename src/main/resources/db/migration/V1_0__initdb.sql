@@ -59,8 +59,8 @@ create sequence cart_seq;
 create table cart
 (
     id       bigint primary key default nextval('cart_seq'),
-    user_id  int not null references users (id),
-    pizza_id int not null references pizza (id),
+    user_id  bigint not null references users (id),
+    pizza_id bigint not null references pizza (id),
     quantity int
 );
 

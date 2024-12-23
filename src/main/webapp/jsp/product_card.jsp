@@ -13,7 +13,7 @@
     </div>
     <div class="item-price">
         <div class="price"><%=pizza.getPrice()%></div>
-        <button class="add-to-cart">
+        <button id="buttonAdd<%=pizza.getId()%>" class="add-to-cart">
             <img src="/static/images/vector/plus.svg" class="plus" alt="add to cart">
         </button>
     </div>

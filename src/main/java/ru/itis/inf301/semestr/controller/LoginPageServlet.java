@@ -30,6 +30,7 @@ public class LoginPageServlet extends HttpServlet {
 
             if (access) {
                 HttpSession session = request.getSession();
+                session.setAttribute("id", user.getId());
                 session.setAttribute("user", username);
                 response.sendRedirect("/");
             } else {
@@ -45,8 +46,6 @@ public class LoginPageServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) {
 
         try {
-            HttpSession session = request.getSession(false);
-            if (session != null) System.out.println(session.getAttribute("user"));
             request.getRequestDispatcher("jsp/login.jsp").forward(request, response);
         } catch (ServletException | IOException e) {
             throw new RuntimeException(e);

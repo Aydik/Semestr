@@ -58,7 +58,7 @@
             </div>
         </form>
     </div>
-    <script src="/static/js/phone_input.js"></script>
+    <script src="../static/js/phone_input.js"></script>
 </main>
 </body>
 </html>
