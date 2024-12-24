@@ -1,23 +1,15 @@
 package ru.itis.inf301.semestr.model;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@Getter
-@Setter
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Cart {
     private Long id;
     private Long user_id;
     private Pizza pizza;
     private int quantity;
-
-    public Cart() {
-    }
-
-    public Cart(Long id, Long user_id, Pizza pizza, int quantity) {
-        this.id = id;
-        this.user_id = user_id;
-        this.pizza = pizza;
-        this.quantity = quantity;
-    }
 }

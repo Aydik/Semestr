@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" session="false" %>
 <!DOCTYPE html>
 <html>
@@ -11,15 +12,14 @@
 <main class="main">
     <div class="main_div">
         <div class="title">Авторизация</div>
-        <% String error = (String) request.getAttribute("error");
-            if (request.getAttribute("error") != null) {%>
-        <div class="error">
-            <div class="error-background"></div>
-            <p class="error-text">
-                <%=error%>
-            </p>
-        </div>
-        <%}%>
+        <c:if test="${error != null}">
+            <div class="error">
+                <div class="error-background"></div>
+                <p class="error-text">
+                        ${error}
+                </p>
+            </div>
+        </c:if>
         <form method="post">
             <div class="input_box">
                 <input type="text" placeholder="Логин" required name="username">

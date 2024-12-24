@@ -7,9 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
-    private Long id;
-    private String phone;
-    private String username;
-    private String password;
+public class PizzaAndQuantity {
+    Pizza pizza;
+    int quantity;
 }

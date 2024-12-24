@@ -1,10 +1,12 @@
 package ru.itis.inf301.semestr.model;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@Getter
-@Setter
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Pizza {
     private Long id;
     private String name;
@@ -12,16 +14,4 @@ public class Pizza {
     private int weight;
     private int price;
     private String photo;
-
-    public Pizza() {
-    }
-
-    public Pizza(Long id, String name, String composition, int weight, int price, String photo) {
-        this.id = id;
-        this.name = name;
-        this.composition = composition;
-        this.weight = weight;
-        this.price = price;
-        this.photo = photo;
-    }
 }

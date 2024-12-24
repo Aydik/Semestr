@@ -328,11 +328,14 @@ template {
   background: url("/static/images/pictures/background.jpg") repeat;
 }
 
+.main {
+  position: absolute;
+}
+
 .main_div {
   margin: 15vh auto 0 auto;
   position: relative;
   width: 365px;
-  background: #fff;
   padding: 20px 30px;
   border-radius: 5px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);

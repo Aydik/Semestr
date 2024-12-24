@@ -18,7 +18,6 @@ public class CartPageServlet extends HttpServlet {
 
     public void doPost(HttpServletRequest request, HttpServletResponse response) {
         try {
-            System.out.println(123);
 
             response.sendRedirect("/");
         } catch (Exception e) {
@@ -36,7 +35,7 @@ public class CartPageServlet extends HttpServlet {
                 request.setAttribute("quantity", quantity);
                 int totalPrice = cartService.getTotalPrice((Long) session.getAttribute("id"));
                 request.setAttribute("totalPrice", totalPrice);
-
+                request.setAttribute("authenticated", true);
                 request.getRequestDispatcher("jsp/cart.jsp").forward(request, response);
             } else {
                 response.sendRedirect("/login");

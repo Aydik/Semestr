@@ -46,6 +46,8 @@ public class LoginPageServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) {
 
         try {
+            HttpSession session = request.getSession(false);
+            request.setAttribute("authenticated", (session != null));
             request.getRequestDispatcher("jsp/login.jsp").forward(request, response);
         } catch (ServletException | IOException e) {
             throw new RuntimeException(e);

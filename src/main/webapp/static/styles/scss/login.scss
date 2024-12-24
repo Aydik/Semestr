@@ -2,11 +2,14 @@
 @use "variables";
 @use "global";
 
+.main {
+  position: absolute;
+}
+
 .main_div {
   margin: 15vh auto 0 auto;
   position: relative;
   width: 365px;
-  background: #fff;
   padding: 20px 30px;
   border-radius: 5px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
@@ -98,6 +101,7 @@ form {
     .link {
       text-decoration: none;
       color: var(--color-dark);
+
       .red {
         color: var(--color-selected);
       }
@@ -109,7 +113,7 @@ form {
   }
 }
 
-.fas{
+.fas {
   color: var(--color-dark);
 }
 

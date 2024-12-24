@@ -1,7 +1,4 @@
-<%@ page import="ru.itis.inf301.semestr.model.Pizza" %>
-<%@ page import="java.util.List" %>
-<%@ page import="java.util.HashMap" %>
-<%@ page import="ru.itis.inf301.semestr.controller.IndexPageServlet" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" session="false" %>
 <!DOCTYPE html>
 <html>
@@ -46,13 +43,9 @@
         </div>
     </div>
     <div class="catalog">
-        <%
-            List<Pizza> products = (List<Pizza>) request.getAttribute("products");
-            HashMap<Long, Integer> quantityMap = (HashMap<Long, Integer>) request.getAttribute("quantityMap");
-            for (var pizza : products) {
-        %>
-        <%@include file="product_card.jsp" %>
-        <%}%>
+        <c:forEach var="item" items="${products}">
+            <%@include file="product_card.jsp" %>
+        </c:forEach>
     </div>
 </main>
 <%@include file="footer.jsp" %>
