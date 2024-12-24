@@ -328,52 +328,172 @@ template {
   background: url("/static/images/pictures/background.jpg") repeat;
 }
 
-.main_div {
-  margin: 15vh auto 0 auto;
-  position: relative;
-  width: 365px;
-  background: #fff;
-  padding: 20px 30px;
-  border-radius: 5px;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
-  background: var(--color-secondary);
+.main {
+  padding: 15vh 0;
+  min-height: calc(100vh - 200px);
 }
-.main_div .title {
+
+.main-div {
+  margin: 0 auto;
+  padding: 30px 20px;
+  position: relative;
+  width: 50%;
+  min-width: 600px;
+  min-height: calc(100vh - 200px - 30vh);
+  background: var(--color-secondary);
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
+  color: var(--color-dark);
+}
+.main-div .title {
   text-align: center;
   font-size: 30px;
   font-weight: 600;
   color: var(--color-dark);
   margin-bottom: 15px;
-}
-.main_div .error {
-  width: 100%;
-  border: var(--color-selected) 1px solid;
   position: relative;
-  border-radius: 5px;
 }
-.main_div .error-background {
-  border-radius: 3px;
-  width: 100%;
-  height: 100%;
-  background: var(--color-primary);
-  opacity: 20%;
+.main-div .title #clearCartButton {
   position: absolute;
+  bottom: -5px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 30px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  white-space: nowrap;
+  color: var(--color-primary);
+  opacity: 80%;
 }
-.main_div .error-text {
+.main-div .title #clearCartButton img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-left: 5px;
+}
+.main-div .title #clearCartButton:hover {
+  cursor: pointer;
   color: var(--color-selected);
-  padding: 0.5rem 1rem;
 }
-
-form {
+.main-div hr {
+  border: 0 var(--color-dark);
+  border-style: dashed !important;
+  border-top-width: 2px;
+  opacity: 50%;
+}
+.main-div .empty-cart {
+  position: relative;
+  margin-top: 80px;
+}
+.main-div .empty-cart .empty-cart-title {
+  text-align: center;
+}
+.main-div .empty-cart a {
+  text-decoration: none;
+  color: var(--color-primary);
+  display: block;
+  text-align: center;
+}
+.main-div .not-empty-cart .products {
+  margin-bottom: 15px;
+}
+.main-div .not-empty-cart .cart-item {
+  height: 120px;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.main-div .not-empty-cart .cart-item .item-photo {
+  overflow: hidden;
+  border-radius: 10px;
+  width: 140px;
+}
+.main-div .not-empty-cart .cart-item .item-photo img {
+  width: 100%;
+  object-fit: contain;
+}
+.main-div .not-empty-cart .cart-item .item-content {
+  flex-grow: 2;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-div .not-empty-cart .cart-item .item-content .main-info .name-and-price {
+  display: flex;
+  justify-content: space-between;
+}
+.main-div .not-empty-cart .cart-item .item-content .main-info .name-and-price .name {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.main-div .not-empty-cart .cart-item .item-content .main-info .name-and-price .price {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.main-div .not-empty-cart .cart-item .item-content .main-info .weight {
+  opacity: 70%;
+}
+.main-div .not-empty-cart .cart-item .item-content .quantity-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-div .not-empty-cart .cart-item .item-content .quantity-container .buttonDelete {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  background: none;
+  border: none;
+  opacity: 80%;
+}
+.main-div .not-empty-cart .cart-item .item-content .quantity-container .buttonDelete:hover {
+  cursor: pointer;
+}
+.main-div .not-empty-cart .cart-item .item-content .quantity-container .correct-quantity {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.main-div .not-empty-cart .cart-item .item-content .quantity-container .correct-quantity .buttonMinus, .main-div .not-empty-cart .cart-item .item-content .quantity-container .correct-quantity .buttonPlus {
+  width: 30px;
+  height: 30px;
+  padding: 7.5px;
+  background: var(--color-primary);
+  border-radius: 10px;
+  border: none;
+  transition: all 0.3s ease;
+}
+.main-div .not-empty-cart .cart-item .item-content .quantity-container .correct-quantity .buttonMinus:hover, .main-div .not-empty-cart .cart-item .item-content .quantity-container .correct-quantity .buttonPlus:hover {
+  cursor: pointer;
+  background: var(--color-selected);
+}
+.main-div .not-empty-cart .cart-item .item-content .quantity-container .correct-quantity .quantity {
+  width: 30px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.main-div .not-empty-cart .totalPrice {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-dark);
+  text-align: right;
+  margin: 0 25px 10px;
+}
+.main-div .not-empty-cart form {
   margin-top: 10px;
 }
-form .input_box {
+.main-div .not-empty-cart form .input_box {
   height: 50px;
   width: 100%;
   position: relative;
   margin-top: 15px;
 }
-form .input_box input {
+.main-div .not-empty-cart form .input_box input {
   height: 100%;
   width: 100%;
   outline: none;
@@ -383,17 +503,17 @@ form .input_box input {
   font-size: 17px;
   transition: all 0.3s ease;
 }
-form .input_box input:focus {
+.main-div .not-empty-cart form .input_box input:focus {
   border-color: var(--color-primary);
 }
-form .input_box .icon {
+.main-div .not-empty-cart form .input_box .icon {
   position: absolute;
   top: 50%;
   left: 20px;
   transform: translateY(-50%);
   color: grey;
 }
-form .button input {
+.main-div .not-empty-cart form .button input {
   padding-left: 0;
   background: var(--color-primary);
   color: #fff;
@@ -403,27 +523,11 @@ form .button input {
   cursor: pointer;
   transition: all 0.3s linear;
 }
-form .button input:hover {
+.main-div .not-empty-cart form .button input:hover {
   background: var(--color-selected);
 }
-form .sign_up {
-  text-align: center;
-  margin-top: 25px;
-  cursor: pointer;
-}
-form .sign_up .link {
-  text-decoration: none;
-  color: var(--color-dark);
-}
-form .sign_up .link .red {
-  color: var(--color-selected);
-}
-form .sign_up:hover {
-  text-decoration: underline;
-}
-
-.fas {
+.main-div .not-empty-cart form .fas {
   color: var(--color-dark);
 }
 
-/*# sourceMappingURL=login.css.map */
+/*# sourceMappingURL=cart.css.map */

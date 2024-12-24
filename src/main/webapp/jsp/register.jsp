@@ -12,13 +12,13 @@
     <div class="main_div">
         <div class="title">Регистрация</div>
         <% String error = (String) request.getAttribute("error");
-            if (request.getAttribute("error") != null){%>
-            <div class="error">
-                <div class="error-background"></div>
-                <p class="error-text">
-                    <%=error%>
-                </p>
-            </div>
+            if (request.getAttribute("error") != null) {%>
+        <div class="error">
+            <div class="error-background"></div>
+            <p class="error-text">
+                <%=error%>
+            </p>
+        </div>
         <%}%>
         <form method="post">
             <div class="input_box">
@@ -54,7 +54,7 @@
                 <input type="submit" value="Зарегистрироваться">
             </div>
             <div class="sign_up">
-                <a class="link" href="/login">Уже есть аккаунт? <span class="red">Войти</span></a>
+                <a class="link" href="${pageContext.request.contextPath}/login">Уже есть аккаунт? <span class="red">Войти</span></a>
             </div>
         </form>
     </div>

@@ -51,6 +51,20 @@
 }
 .header .nav .header-right .cart {
   margin-right: 20px;
+  position: relative;
+}
+.header .nav .header-right .cart .quantity {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  top: -7px;
+  right: -7px;
+  background: white;
+  color: var(--color-primary);
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
 }
 
 /*# sourceMappingURL=header.css.map */

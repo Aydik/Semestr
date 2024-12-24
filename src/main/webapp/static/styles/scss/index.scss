@@ -119,21 +119,18 @@
     .item-price {
       margin-top: 10px;
       padding: 0 20px 20px 20px;
+      box-sizing: content-box;
+      height: 60px;
       display: flex;
       justify-content: space-between;
+      align-items: end;
 
       .price {
         font-weight: 600;
         font-size: 2rem;
-        align-self: end;
       }
 
-      .add-to-cart {
-        align-self: stretch;
-        width: 60px;
-        height: 60px;
-        padding: 15px;
-        border-radius: 30px;
+      .button {
         border: none;
         background: var(--color-primary);
         transition: all 0.3s ease;
@@ -141,6 +138,47 @@
         &:hover {
           cursor: pointer;
           background: var(--color-selected);
+        }
+      }
+
+      .buttonAdd {
+        width: 60px;
+        height: 60px;
+        padding: 15px;
+        border-radius: 20px;
+      }
+
+      .buttonDelete {
+        align-self: end;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        margin-right: 10px;
+        background: none;
+        border: none;
+        opacity: 80%;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      .buttonMinus, .buttonPlus {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 14px;
+      }
+
+      .correct-quantity {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        .quantity {
+          width: 45px;
+          text-align: center;
+          font-size: 1.8rem;
         }
       }
     }

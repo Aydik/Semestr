@@ -2,6 +2,6 @@
 <link rel="stylesheet" href="../static/styles/footer.css">
 <footer class="footer">
     <p class="copy">
-        © Пиццерия PIZZA FAST"
+        © Пиццерия PIZZA FAST
     </p>
 </footer>

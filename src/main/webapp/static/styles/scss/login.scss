@@ -64,17 +64,6 @@ form {
       &:focus {
         border-color: var(--color-primary);
       }
-      &::placeholder,
-      &::-webkit-input-placeholder,
-      &:-moz-placeholder,
-      &::-moz-placeholder,
-      &:-ms-input-placeholder,
-      &::-ms-input-placeholder {
-        color: var(--color-dark);
-      }
-      textarea{
-        color: var(--color-dark);
-      }
     }
 
     .icon {

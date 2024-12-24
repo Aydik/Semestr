@@ -1,7 +1,11 @@
 
 sass -w src/main/webapp/static/styles/scss/index.scss src/main/webapp/static/styles/index.css
 
+sass -w src/main/webapp/static/styles/scss/cart.scss src/main/webapp/static/styles/cart.css
+
 sass -w src/main/webapp/static/styles/scss/login.scss src/main/webapp/static/styles/login.css
+
+sass -w src/main/webapp/static/styles/scss/header.scss src/main/webapp/static/styles/header.css
 
 # Семестровая 1
 

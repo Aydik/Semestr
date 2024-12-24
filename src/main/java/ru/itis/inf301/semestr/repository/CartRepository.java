@@ -16,11 +16,10 @@ public class CartRepository {
             List<Cart> carts = new ArrayList<>();
 
             PreparedStatement statement = connection.prepareStatement(
-                    "select * from cart join pizza on pizza.id=cart.pizza_id where user_id = ?");
+                    "select * from cart join pizza on pizza.id=cart.pizza_id where user_id = ? order by pizza_id");
             statement.setLong(1, user_id);
             ResultSet resultSet = statement.executeQuery();
-            if (resultSet.next()) {
-
+            while (resultSet.next()) {
                 Pizza pizza = new Pizza(
                         resultSet.getLong("pizza_id"),
                         resultSet.getString("name"),
@@ -115,7 +114,7 @@ public class CartRepository {
     }
 
 
-    public void addCart(Long user_id, Long pizza_id, int quantity) {
+    public void addCart(Long user_id, Long pizza_id) {
 
         try (Connection connection = db.getConnection()){
 
@@ -123,7 +122,7 @@ public class CartRepository {
                     "insert into cart (user_id, pizza_id, quantity) values (?, ?, ?)");
             statement.setLong(1, user_id);
             statement.setLong(2, pizza_id);
-            statement.setInt(3, quantity);
+            statement.setInt(3, 1);
             statement.executeUpdate();
             statement.close();
             db.releaseConnection(connection);
