@@ -2,9 +2,9 @@ create sequence users_seq;
 create table users
 (
     id           bigint primary key default nextval('users_seq'),
-    phone_number character varying(20) not null,
-    user_name    character varying(50) not null,
-    password     character varying(100) not null
+    user_name    character varying(50)  not null,
+    password     character varying(100) not null,
+    phone_number character varying(20)  not null
 );
 
 
@@ -12,10 +12,10 @@ create sequence pizza_seq;
 create table pizza
 (
     id          bigint primary key default nextval('pizza_seq'),
-    name        character varying(50) not null,
+    name        character varying(50)  not null,
     composition character varying(200) not null,
-    weight      int not null,
-    price       int not null,
+    weight      int                    not null,
+    price       int                    not null,
     photo       character varying(100) not null
 );
 insert into pizza (name, composition, weight, price, photo)
@@ -62,6 +62,16 @@ create table cart
     user_id  bigint not null references users (id),
     pizza_id bigint not null references pizza (id),
     quantity int
+);
+
+create sequence orders_seq;
+create table orders
+(
+    id         bigint primary key default nextval('orders_seq'),
+    user_id    bigint                                       not null references users (id),
+    products   bigint[] not null,
+    address    character varying(200)                       not null,
+    created_at timestamp          default current_timestamp not null
 );
 
 

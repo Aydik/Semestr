@@ -1,4 +1,5 @@
 package ru.itis.inf301.semestr.repository;
+
 import ru.itis.inf301.semestr.model.Pizza;
 
 import java.sql.*;
@@ -65,42 +66,29 @@ public class PizzaRepository {
         return pizzas;
     }
 
-    public Pizza addPizza(Pizza pizza) {
+    public void addPizza(Pizza pizza) {
 
         try {
             Connection connection = db.getConnection();
 
             connection.setAutoCommit(false);
 
-            Long id = null;
-            PreparedStatement statement
-                    = connection.prepareStatement("select nextval('pizza_seq')");
-            ResultSet resultSet = statement.executeQuery();
-            if (resultSet.next()) {
-                id = resultSet.getLong("nextval");
-            }
-            resultSet.close();
+            PreparedStatement statement = connection.prepareStatement(
+                    "insert into pizza (name, composition, weight, price, photo) values (?,?,?,?,?)");
+            statement.setString(1, pizza.getName());
+            statement.setString(2, pizza.getComposition());
+            statement.setInt(3, pizza.getWeight());
+            statement.setInt(4, pizza.getPrice());
+            statement.setString(5, pizza.getPhoto());
+            statement.executeUpdate();
 
-            if (id != null) {
-                statement =  connection.prepareStatement(
-                        "insert into pizza (id, name, composition, weight, price, photo) values (?,?,?,?,?,?)");
-                statement.setLong(1, id);
-                statement.setString(2, pizza.getName());
-                statement.setString(3, pizza.getComposition());
-                statement.setInt(4, pizza.getWeight());
-                statement.setInt(5, pizza.getPrice());
-                statement.setString(6, pizza.getPhoto());
-                statement.executeUpdate();
+            statement.close();
+            connection.commit();
+            db.releaseConnection(connection);
 
-                statement.close();
-                connection.commit();
-                db.releaseConnection(connection);
-                pizza.setId(id);
-            }
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return pizza;
     }
 
 }

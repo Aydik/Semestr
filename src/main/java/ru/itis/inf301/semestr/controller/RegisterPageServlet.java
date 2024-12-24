@@ -28,7 +28,7 @@ public class RegisterPageServlet extends HttpServlet {
 
             if (error == null) {
                 HttpSession session = request.getSession();
-                session.setAttribute("id", userService.findByName(username));
+                session.setAttribute("id", userService.findByName(username).getId());
                 session.setAttribute("user", username);
                 response.sendRedirect("/");
             } else {

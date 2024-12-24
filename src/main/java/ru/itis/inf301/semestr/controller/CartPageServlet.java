@@ -8,18 +8,33 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import ru.itis.inf301.semestr.model.Cart;
 import ru.itis.inf301.semestr.service.CartService;
+import ru.itis.inf301.semestr.service.OrderService;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 @WebServlet("/cart")
 public class CartPageServlet extends HttpServlet {
     private final CartService cartService = new CartService();
+    private final OrderService orderService = new OrderService();
 
     public void doPost(HttpServletRequest request, HttpServletResponse response) {
         try {
+            HttpSession session = request.getSession(false);
+            if (session != null) {
 
-            response.sendRedirect("/");
+                String address = request.getParameter("address");
+
+                Long user_id = (Long) session.getAttribute("id");
+                List<Cart> carts = cartService.findByUser(user_id);
+
+                orderService.addOrder(carts, address);
+
+                response.sendRedirect("/");
+            } else {
+                response.sendRedirect("/login");
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }

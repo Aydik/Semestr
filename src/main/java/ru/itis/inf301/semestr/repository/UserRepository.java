@@ -1,4 +1,5 @@
 package ru.itis.inf301.semestr.repository;
+
 import ru.itis.inf301.semestr.model.User;
 
 import java.sql.*;
@@ -61,40 +62,28 @@ public class UserRepository {
         return users;
     }
 
-    public User addUser(User user) {
+    public void addUser(User user) {
 
         try {
             Connection connection = db.getConnection();
 
             connection.setAutoCommit(false);
 
-            Long id = null;
-            PreparedStatement statement
-                    = connection.prepareStatement("select nextval('users_seq')");
-            ResultSet resultSet = statement.executeQuery();
-            if (resultSet.next()) {
-                id = resultSet.getLong("nextval");
-            }
-            resultSet.close();
 
-            if (id != null) {
-                statement =  connection.prepareStatement(
-                        "insert into users (id, phone_number, user_name, password) values ( ?, ?, ?, ?)");
-                statement.setLong(1, id);
-                statement.setString(2, user.getPhone());
-                statement.setString(3, user.getUsername());
-                statement.setString(4, user.getPassword());
-                statement.executeUpdate();
+            PreparedStatement statement = connection.prepareStatement(
+                    "insert into users (phone_number, user_name, password) values (?, ?, ?)");
+            statement.setString(1, user.getPhone());
+            statement.setString(2, user.getUsername());
+            statement.setString(3, user.getPassword());
+            statement.executeUpdate();
 
-                statement.close();
-                connection.commit();
-                db.releaseConnection(connection);
-                user.setId(id);
-            }
+            statement.close();
+            connection.commit();
+            db.releaseConnection(connection);
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return user;
     }
 
 }
